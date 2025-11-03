@@ -1,0 +1,11 @@
+sources:
+  - name: source
+    database: Z_DBT_TUTO
+    schema: source
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_date
+      - name: dim_store
+      - name: dim_product
+      - name: dim_customer
